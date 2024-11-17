@@ -1,0 +1,502 @@
+<html>
+
+<head>
+    <style>
+        .gm-err-container {
+            height: 100%;
+            width: 100%;
+            display: table;
+            background-color: #e8eaed;
+            position: relative;
+            left: 0;
+            top: 0
+        }
+
+        .gm-err-content {
+            border-radius: 1px;
+            padding-top: 0;
+            padding-left: 10%;
+            padding-right: 10%;
+            position: static;
+            vertical-align: middle;
+            display: table-cell
+        }
+
+        .gm-err-content a {
+            color: #3c4043
+        }
+
+        .gm-err-icon {
+            text-align: center
+        }
+
+        .gm-err-title {
+            margin: 5px;
+            margin-bottom: 20px;
+            color: #3c4043;
+            font-family: Roboto, Arial, sans-serif;
+            text-align: center;
+            font-size: 24px
+        }
+
+        .gm-err-message {
+            margin: 5px;
+            color: #3c4043;
+            font-family: Roboto, Arial, sans-serif;
+            text-align: center;
+            font-size: 12px
+        }
+
+        .gm-err-autocomplete {
+            padding-left: 20px;
+            background-repeat: no-repeat;
+            -webkit-background-size: 15px 15px;
+            background-size: 15px 15px
+        }
+
+        sentinel {}
+    </style>
+    <style>
+        .gm-style-moc {
+            background-color: rgba(0, 0, 0, .45);
+            pointer-events: none;
+            text-align: center;
+            -webkit-transition: opacity ease-in-out;
+            transition: opacity ease-in-out
+        }
+
+        .gm-style-mot {
+            color: white;
+            font-family: Roboto, Arial, sans-serif;
+            font-size: 22px;
+            margin: 0;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%)
+        }
+
+        sentinel {}
+    </style>
+    <style>
+        .gm-style img {
+            max-width: none;
+        }
+
+        .gm-style {
+            font: 400 11px Roboto, Arial, sans-serif;
+            text-decoration: none;
+        }
+    </style>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>EventCon</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script type="text/javascript" charset="UTF-8"
+        src="https://maps.googleapis.com/maps-api-v3/api/js/58/11a/common.js"></script>
+    <script type="text/javascript" charset="UTF-8"
+        src="https://maps.googleapis.com/maps-api-v3/api/js/58/11a/util.js"></script>
+    <script type="text/javascript" charset="UTF-8"
+        src="https://maps.googleapis.com/maps-api-v3/api/js/58/11a/map.js"></script>
+    <script type="text/javascript" charset="UTF-8"
+        src="https://maps.googleapis.com/maps-api-v3/api/js/58/11a/onion.js"></script>
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <!-- header-start -->
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container">
+                    <div class="header_bottom_border">
+                        <div class="row align-items-center">
+                            <div class="col-xl-3 col-lg-3">
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img src="img/logo.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6">
+                                <div class="main-menu  d-none d-lg-block">
+                                    <nav>
+                                        <ul id="navigation">
+                                            <li><a href="index.html">home</a></li>
+                                            <li><a href="performer.html">Performer</a></li>
+
+                                            <li><a href="#">pages <i class="ti-angle-down"></i></a>
+                                                <ul class="submenu">
+                                                    <li><a href="about.html">about</a></li>
+                                                    <li><a href="Program.html">Program</a></li>
+                                                    <li><a href="Venue.html">Venue</a></li>
+                                                    <li><a href="elements.html">elements</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">blog <i class="ti-angle-down"></i></a>
+                                                <ul class="submenu">
+                                                    <li><a href="blog.html">blog</a></li>
+                                                    <li><a href="single-blog.html">single-blog</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                                <div class="buy_tkt">
+                                    <div class="book_btn d-none d-lg-block">
+                                        <a href="#">Buy Tickets</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="mobile_menu d-block d-lg-none">
+                                    <div class="slicknav_menu"><a href="#" aria-haspopup="true" role="button"
+                                            tabindex="0" class="slicknav_btn slicknav_collapsed"
+                                            style="outline: none;"><span class="slicknav_menutxt">MENU</span><span
+                                                class="slicknav_icon"><span class="slicknav_icon-bar"></span><span
+                                                    class="slicknav_icon-bar"></span><span
+                                                    class="slicknav_icon-bar"></span></span></a>
+                                        <ul class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu"
+                                            style="display: none;">
+                                            <li><a href="index.html" role="menuitem" tabindex="-1">home</a></li>
+                                            <li><a href="performer.html" role="menuitem" tabindex="-1">Performer</a>
+                                            </li>
+
+                                            <li class="slicknav_parent slicknav_collapsed"><a href="#" role="menuitem"
+                                                    aria-haspopup="true" tabindex="-1"
+                                                    class="slicknav_item slicknav_row" style="outline: none;"><a
+                                                        href="#" tabindex="-1">pages <i class="ti-angle-down"></i></a>
+                                                    <span class="slicknav_arrow">+</span></a>
+                                                <ul class="submenu slicknav_hidden" role="menu" aria-hidden="true"
+                                                    style="display: none;">
+                                                    <li><a href="about.html" role="menuitem" tabindex="-1">about</a>
+                                                    </li>
+                                                    <li><a href="Program.html" role="menuitem" tabindex="-1">Program</a>
+                                                    </li>
+                                                    <li><a href="Venue.html" role="menuitem" tabindex="-1">Venue</a>
+                                                    </li>
+                                                    <li><a href="elements.html" role="menuitem"
+                                                            tabindex="-1">elements</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="slicknav_parent slicknav_collapsed"><a href="#" role="menuitem"
+                                                    aria-haspopup="true" tabindex="-1"
+                                                    class="slicknav_item slicknav_row" style="outline: none;"><a
+                                                        href="#" tabindex="-1">blog <i class="ti-angle-down"></i></a>
+                                                    <span class="slicknav_arrow">+</span></a>
+                                                <ul class="submenu slicknav_hidden" role="menu" aria-hidden="true"
+                                                    style="display: none;">
+                                                    <li><a href="blog.html" role="menuitem" tabindex="-1">blog</a></li>
+                                                    <li><a href="single-blog.html" role="menuitem"
+                                                            tabindex="-1">single-blog</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="contact.html" role="menuitem" tabindex="-1">Contact</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-end -->
+
+    <!-- slider_area_start -->
+    <div class="slider_area">
+        <div class="single_slider  d-flex align-items-center slider_bg_1 overlay">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-xl-12">
+                        <div class="slider_text text-center">
+                            <div class="shape_1 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s"
+                                style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
+                                <img src="img/shape/shape_1.svg" alt="">
+                            </div>
+                            <div class="shape_2 wow fadeInDown" data-wow-duration="1s" data-wow-delay=".2s"
+                                style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInDown;">
+                                <img src="img/shape/shape_2.svg" alt="">
+                            </div>
+                            <span class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s"
+                                style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInLeft;">12
+                                Feb, 2024</span>
+                            <h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s"
+                                style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                                ICEPHSS</h3>
+                            <p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s"
+                                style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInLeft;">
+                                INTERNATIONAL CONFERENCE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider_area_end -->
+
+    <!-- performar_area_start  -->
+
+    <!-- performar_area_end  -->
+
+    <!-- about_area_start  -->
+
+    <!-- about_area_end  -->
+
+
+
+    <!-- map_area_start  -->
+
+    <!-- map_area_end  -->
+
+    <!-- brand_area_start  -->
+    <div class="brand_area black_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section_title text-center mb-80">
+                        <h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s"
+                            style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInRight;">
+                            Sponsor Logos</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="brand_wrap">
+                        <div class="brand_active owl-carousel owl-loaded owl-drag">
+
+
+
+
+
+
+
+                            <div class="owl-stage-outer">
+                                <div class="owl-stage"
+                                    style="transform: translate3d(-927px, 0px, 0px); transition: all; width: 1545px;">
+                                    <div class="owl-item cloned" style="width: 103px;">
+                                        <div class="single_brand text-center">
+                                            <img src="img/brand/4.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="owl-item cloned" style="width: 103px;">
+                                        <div class="single_brand text-center">
+                                            <img src="img/brand/5.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="owl-item cloned" style="width: 103px;">
+                                        <div class="single_brand text-center">
+                                            <img src="img/brand/1.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="owl-item cloned" style="width: 103px;">
+                                        <div class="single_brand text-center">
+                                            <img src="img/brand/2.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="owl-item" style="width: 103px;">
+                                        <div class="single_brand text-center">
+                                            <img src="img/brand/1.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="owl-item" style="width: 103px;">
+                                        <div class="single_brand text-center">
+                                            <img src="img/brand/2.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="owl-item" style="width: 103px;">
+                                        <div class="single_brand text-center">
+                                            <img src="img/brand/3.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="owl-item" style="width: 103px;">
+                                        <div class="single_brand text-center">
+                                            <img src="img/brand/4.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="owl-item" style="width: 103px;">
+                                        <div class="single_brand text-center">
+                                            <img src="img/brand/5.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="owl-item active" style="width: 103px;">
+                                        <div class="single_brand text-center">
+                                            <img src="img/brand/1.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="owl-item" style="width: 103px;">
+                                        <div class="single_brand text-center">
+                                            <img src="img/brand/2.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="owl-item cloned" style="width: 103px;">
+                                        <div class="single_brand text-center">
+                                            <img src="img/brand/1.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="owl-item cloned" style="width: 103px;">
+                                        <div class="single_brand text-center">
+                                            <img src="img/brand/2.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="owl-item cloned" style="width: 103px;">
+                                        <div class="single_brand text-center">
+                                            <img src="img/brand/3.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="owl-item cloned" style="width: 103px;">
+                                        <div class="single_brand text-center">
+                                            <img src="img/brand/4.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-nav disabled">
+                                <div class="owl-prev"><i class="ti-angle-left"></i></div>
+                                <div class="owl-next"><i class="ti-angle-right"></i></div>
+                            </div>
+                            <div class="owl-dots disabled"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- brand_area_end  -->
+    <!-- footer_start  -->
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-8">
+                        <div class="footer_widget">
+                            <div class="address_details text-center">
+                                <h4 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s"
+                                    style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                                    12 Feb, 2024</h4>
+                                <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s"
+                                    style="visibility: visible; animation-duration: 1s; animation-delay: 0.4s; animation-name: fadeInUp;">
+                                    KALASALINGAM ACADEMY OF RESEARCH AND EDUCATION</h3>
+                                <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s"
+                                    style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInUp;">
+                                    An International Conference</p>
+                                <a href="#" class="boxed-btn3 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s"
+                                    style="visibility: visible; animation-duration: 1s; animation-delay: 0.6s; animation-name: fadeInUp;">Buy
+                                    Tickets</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <p class="copy_right text-center wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s"
+                            style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInDown;">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright ©
+                            <script>document.write(new Date().getFullYear());</script>2024 All rights reserved | Made
+                            With <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com"
+                                target="_blank">BLT</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer_end  -->
+
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/gijgo.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/tilt.jquery.js"></script>
+    <script src="js/plugins.js"></script>
+
+
+
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+
+
+    <script src="js/main.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+& nbsp; window.dataLayer = window.dataLayer || [];
+& nbsp; function gtag() { dataLayer.push(arguments); }
+& nbsp; gtag('js', new Date());
+
+& nbsp; gtag('config', 'UA-23581568-13');
+    </script>
+
+    <script defer=""
+        src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+        integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
+        data-cf-beacon="{&quot;rayId&quot;:&quot;8e3e0d358eeeb2a5&quot;,&quot;serverTiming&quot;:{&quot;name&quot;:{&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfSpeedBrain&quot;:true,&quot;cfCacheStatus&quot;:true}},&quot;version&quot;:&quot;2024.10.5&quot;,&quot;token&quot;:&quot;cd0b4b3a733644fc843ef0b185f98241&quot;}"
+        crossorigin="anonymous"></script>
+
+
+    <a id="scrollUp" href="#top" style="display: none; position: fixed; z-index: 2147483647;"><i
+            class="ti-angle-up"></i></a>
+    <div
+        style="position: absolute; left: 0px; top: -2px; height: 1px; overflow: hidden; visibility: hidden; width: 1px;">
+        <span
+            style="position: absolute; font-size: 300px; width: auto; height: auto; margin: 0px; padding: 0px; font-family: Roboto, Arial, sans-serif;">BESbswy</span>
+    </div>
+</body>
+
+</html>
