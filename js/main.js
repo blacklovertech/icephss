@@ -364,3 +364,32 @@ mailChimp();
       })
 
 })(jQuery);	
+
+
+
+let currentIndex = 0;
+const slides = document.querySelectorAll('.single_slider');
+const navDots = document.querySelectorAll('.nav_dot');
+
+function showSlide(index) {
+  currentIndex = index;
+  const offset = -index * 100;
+  document.querySelector('.slider').style.transform = `translateX(${offset}%)`;
+  
+  navDots.forEach(dot => dot.classList.remove('active'));
+  navDots[index].classList.add('active');
+}
+
+// Auto-scroll functionality
+setInterval(() => {
+  currentIndex = (currentIndex + 1) % slides.length;
+  showSlide(currentIndex);
+}, 5000); // Change slide every 5 seconds
+
+// Clickable navigation dots
+navDots.forEach(dot => {
+  dot.addEventListener('click', () => {
+    const index = parseInt(dot.getAttribute('data-index'));
+    showSlide(index);
+  });
+});
