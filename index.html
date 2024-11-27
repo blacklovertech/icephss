@@ -185,7 +185,7 @@
               <!-- Mobile Menu Button -->
               <div class="col-12">
                 <div class="mobile_menu d-block d-lg-none">
-                
+
                   <nav class="mobile-nav" style="display: none;">
                     <ul id="mobile-navigation">
                       <li><a href="index.html">Home</a></li>
@@ -246,14 +246,33 @@
           <div class="row align-items-center justify-content-center">
             <div class="col-xl-12">
               <div class="slider_text text-center">
-                <span class="date">20-21 February 2025</span>
+                <span class="date">20-22 February 2025</span>
                 <h3>ICEPHSS’25</h3>
-                <p>INTERNATIONAL CONFERENCE</p>
+                <p>Countdown to the grand event:</p>
+                <div class="flex flex-row justify-center align-middle gap-4 self-center mt-12" id="countdown">
+                  <div class="flex flex-col gap-2">
+                    <div class="font-bold text-white" id="days">00</div>
+                    <div class="font-bold text-white">DAY</div>
+                  </div>
+                  <div class="flex flex-col gap-2">
+                    <div class="font-bold text-white" id="hours">00</div>
+                    <div class="font-bold text-white">HOUR</div>
+                  </div>
+                  <div class="flex flex-col gap-2">
+                    <div class="font-bold text-white" id="minutes">00</div>
+                    <div class="font-bold text-white">MIN</div>
+                  </div>
+                  <div class="flex flex-col gap-2">
+                    <div class="font-bold text-white" id="seconds">00</div>
+                    <div class="font-bold text-white">SEC</div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <div class="single_slider d-flex align-items-center overlay"
         style="background-image: url('img/banner/banner.jpg');">
         <div class="container">
@@ -349,7 +368,32 @@
 
   </footer>
   <!-- footer_end  -->
-
+  <script>
+    // Countdown script
+    function updateCountdown() {
+      const eventDate = new Date('2025-02-22T23:59:59'); // End date
+      const now = new Date();
+      const timeDiff = eventDate - now;
+  
+      if (timeDiff > 0) {
+        const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
+  
+        document.getElementById('days').textContent = days;
+        document.getElementById('hours').textContent = hours;
+        document.getElementById('minutes').textContent = minutes;
+        document.getElementById('seconds').textContent = seconds;
+      } else {
+        // Countdown complete
+        document.getElementById('countdown').innerHTML = '<div>Event is Live!</div>';
+      }
+    }
+  
+    // Update countdown every second
+    setInterval(updateCountdown, 1000);
+  </script>
   <!-- JS here -->
   <script src="js/vendor/modernizr-3.5.0.min.js"></script>
   <script src="js/vendor/jquery-1.12.4.min.js"></script>
