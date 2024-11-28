@@ -1,201 +1,133 @@
 <html>
 
 <head>
-    <style>
-        .gm-err-container {
-            height: 100%;
-            width: 100%;
-            display: table;
-            background-color: #e8eaed;
-            position: relative;
-            left: 0;
-            top: 0;
-        }
+  <style>
+    .gm-err-container {
+      height: 100%;
+      width: 100%;
+      display: table;
+      background-color: #e8eaed;
+      position: relative;
+      left: 0;
+      top: 0;
+    }
 
-        .gm-err-content {
-            border-radius: 1px;
-            padding-top: 0;
-            padding-left: 10%;
-            padding-right: 10%;
-            position: static;
-            vertical-align: middle;
-            display: table-cell;
-        }
+    .gm-err-content {
+      border-radius: 1px;
+      padding-top: 0;
+      padding-left: 10%;
+      padding-right: 10%;
+      position: static;
+      vertical-align: middle;
+      display: table-cell;
+    }
 
-        .gm-err-content a {
-            color: #3c4043;
-        }
+    .gm-err-content a {
+      color: #3c4043;
+    }
 
-        .gm-err-icon {
-            text-align: center;
-        }
+    .gm-err-icon {
+      text-align: center;
+    }
 
-        .gm-err-title {
-            margin: 5px;
-            margin-bottom: 20px;
-            color: #3c4043;
-            font-family: Roboto, Arial, sans-serif;
-            text-align: center;
-            font-size: 24px;
-        }
+    .gm-err-title {
+      margin: 5px;
+      margin-bottom: 20px;
+      color: #3c4043;
+      font-family: Roboto, Arial, sans-serif;
+      text-align: center;
+      font-size: 24px;
+    }
 
-        .gm-err-message {
-            margin: 5px;
-            color: #3c4043;
-            font-family: Roboto, Arial, sans-serif;
-            text-align: center;
-            font-size: 12px;
-        }
+    .gm-err-message {
+      margin: 5px;
+      color: #3c4043;
+      font-family: Roboto, Arial, sans-serif;
+      text-align: center;
+      font-size: 12px;
+    }
 
-        .gm-err-autocomplete {
-            padding-left: 20px;
-            background-repeat: no-repeat;
-            -webkit-background-size: 15px 15px;
-            background-size: 15px 15px;
-        }
+    .gm-err-autocomplete {
+      padding-left: 20px;
+      background-repeat: no-repeat;
+      -webkit-background-size: 15px 15px;
+      background-size: 15px 15px;
+    }
 
-        .gm-style-moc {
-            background-color: rgba(0, 0, 0, 0.45);
-            pointer-events: none;
-            text-align: center;
-            -webkit-transition: opacity ease-in-out;
-            transition: opacity ease-in-out;
-        }
+    .gm-style-moc {
+      background-color: rgba(0, 0, 0, 0.45);
+      pointer-events: none;
+      text-align: center;
+      -webkit-transition: opacity ease-in-out;
+      transition: opacity ease-in-out;
+    }
 
-        .gm-style-mot {
-            color: white;
-            font-family: Roboto, Arial, sans-serif;
-            font-size: 22px;
-            margin: 0;
-            position: relative;
-            top: 50%;
-            transform: translateY(-50%);
-            -webkit-transform: translateY(-50%);
-            -ms-transform: translateY(-50%);
-        }
+    .gm-style-mot {
+      color: white;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 22px;
+      margin: 0;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+    }
 
-        sentinel {}
+    sentinel {}
 
-        .gm-style img {
-            max-width: none;
-        }
+    .gm-style img {
+      max-width: none;
+    }
 
-        .gm-style {
-            font: 400 11px Roboto, Arial, sans-serif;
-            text-decoration: none;
-        }
+    .gm-style {
+      font: 400 11px Roboto, Arial, sans-serif;
+      text-decoration: none;
+    }
 
-        .footer_widget p {
-            text-align: justify;
-        }
+    .footer_widget p {
+      text-align: justify;
+    }
+  </style>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>ICEPHSS’25</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        /* Pure Black Theme */
-        .footer {
-            background-color: #000000;
-            color: #fff;
-        }
+  <!-- <link rel="manifest" href="site.webmanifest"> -->
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
+  <!-- Place favicon.ico in the root directory -->
 
-        .footer h4,
-        .footer h4 {
-            color: #fff;
-        }
+  <!-- CSS here -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/themify-icons.css" />
+  <link rel="stylesheet" href="css/gijgo.css" />
+  <link rel="stylesheet" href="css/nice-select.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+  <link rel="stylesheet" href="css/flaticon.css" />
+  <link rel="stylesheet" href="css/slicknav.css" />
 
-        .footer ul {
-            list-style: none;
-            padding: 0;
-        }
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css">
+  <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+  <script type="text/javascript" charset="UTF-8"
+    src="https://maps.googleapis.com/maps-api-v3/api/js/58/11a/common.js"></script>
+  <script type="text/javascript" charset="UTF-8"
+    src="https://maps.googleapis.com/maps-api-v3/api/js/58/11a/util.js"></script>
+  <script type="text/javascript" charset="UTF-8"
+    src="https://maps.googleapis.com/maps-api-v3/api/js/58/11a/map.js"></script>
+  <script type="text/javascript" charset="UTF-8"
+    src="https://maps.googleapis.com/maps-api-v3/api/js/58/11a/onion.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-        .footer .thrust-area {
-            margin-bottom: 30px;
-        }
-
-        .footer .card {
-            background-color: #333333;
-            border-radius: 8px;
-            padding: 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-
-        .footer .card img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-            margin-bottom: 15px;
-        }
-
-        .footer .card h4 {
-            font-size: 18px;
-            color: #ffffff;
-            margin-bottom: 10px;
-            text-align: left;
-        }
-
-        .footer .card ul {
-            padding-left: 20px;
-            color: #ddd;
-            text-align: left;
-        }
-
-        .footer .card ul li {
-            margin-bottom: 5px;
-        }
-
-        .footer .card a {
-            color: #1e90ff;
-            text-decoration: none;
-        }
-
-        .footer .card a:hover {
-            text-decoration: underline;
-        }
-
-        /* Grid system for cards */
-        .card-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 20px;
-        }
-
-        /* Responsive design for better visibility */
-        @media (max-width: 768px) {
-            .card-container {
-                grid-template-columns: 1fr 1fr;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .card-container {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>ICEPHSS’25</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/themify-icons.css" />
-    <link rel="stylesheet" href="css/gijgo.css" />
-    <link rel="stylesheet" href="css/nice-select.css" />
-    <link rel="stylesheet" href="css/animate.css" />
-    <link rel="stylesheet" href="css/flaticon.css" />
-    <link rel="stylesheet" href="css/slicknav.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
-    <!--[if lte IE 9]>
+  <!--[if lte IE 9]>
       <p class="browserupgrade">
         You are using an <strong>outdated</strong> browser. Please
         <a href="https://browsehappy.com/">upgrade your browser</a> to improve
@@ -203,8 +135,8 @@
       </p>
     <![endif]-->
 
-   <!-- header-start -->
-   <header>
+  <!-- header-start -->
+  <header>
     <div class="header-area">
       <div id="sticky-header" class="main-header-area">
         <div class="container">
@@ -237,6 +169,7 @@
                       </li>
                       <li><a href="speaker.html">Speakers</a></li>
                       <li><a href="news.html">News</a></li>
+                      <li><a href="author.html">Authors</a></li>
                       <li><a href="contact.html">Contact</a></li>
                     </ul>
                   </nav>
@@ -245,7 +178,7 @@
               <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                 <div class="buy_tkt">
                   <div class="book_btn d-none d-lg-block">
-                    <a href="#">Buy Tickets</a>
+                    <a href="registration.html">Register Now/a>
                   </div>
                 </div>
               </div>
@@ -253,9 +186,7 @@
               <!-- Mobile Menu Button -->
               <div class="col-12">
                 <div class="mobile_menu d-block d-lg-none">
-                  <button class="mobile-menu-toggle">
-                    <i class="fa fa-bars"></i>
-                  </button>
+
                   <nav class="mobile-nav" style="display: none;">
                     <ul id="mobile-navigation">
                       <li><a href="index.html">Home</a></li>
@@ -268,6 +199,7 @@
                         </ul>
                       </li>
                       <li><a href="speaker.html">Speakers</a></li>
+                      <li><a href="author.html">Authors</a></li>
                       <li><a href="news.html">News</a></li>
                       <li><a href="contact.html">Contact</a></li>
                     </ul>
@@ -291,6 +223,7 @@
       mobileNav.style.display = mobileNav.style.display === 'block' ? 'none' : 'block';
     });
   </script>
+
 
 
     <div class="footer">
