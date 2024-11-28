@@ -23,19 +23,66 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <style>
-        /* Include existing styles for footer, cards, and mobile menu */
-        .footer_widget p { text-align: justify; }
-        .footer { background-color: #000000; color: #fff; }
-        .footer h4 { color: #fff; }
-        .footer ul { list-style: none; padding: 0; }
-        .footer .card { background-color: #333333; border-radius: 8px; padding: 20px; margin-bottom: 20px; }
-        .footer .card img { width: 100%; border-radius: 8px; }
-        .footer .card h4 { font-size: 18px; margin-bottom: 10px; }
-        .footer .card ul li { margin-bottom: 5px; }
-        .footer .card a { color: #1e90ff; }
-        .card-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
-        @media (max-width: 768px) { .card-container { grid-template-columns: 1fr 1fr; } }
-        @media (max-width: 480px) { .card-container { grid-template-columns: 1fr; } }
+        .footer_widget p {
+            text-align: justify;
+        }
+
+        .footer {
+            background-color: #000000;
+            color: #fff;
+        }
+
+        .footer h4 {
+            color: #fff;
+        }
+
+        .footer ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer .card {
+            background-color: #333333;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .footer .card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .footer .card h4 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .footer .card ul li {
+            margin-bottom: 5px;
+        }
+
+        .footer .card a {
+            color: #1e90ff;
+        }
+
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .card-container {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .card-container {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
 </head>
 
@@ -92,29 +139,6 @@
     </header>
     <!-- Header End -->
 
-    <!-- Main Content -->
-    <main>
-        <section class="call-for-papers">
-            <div class="container">
-                <h2 style="text-align: center; margin-top: 30px;">Call for Papers</h2>
-                <p style="text-align: justify; margin-top: 20px;">
-                    ICEPHSS’25 invites authors to submit original papers addressing any of the thrust areas listed below.
-                </p>
-                <h4>Submission Guidelines:</h4>
-                <ul>
-                    <li>Papers must be written in English and formatted using the IEEE 2-column format.</li>
-                    <li>Submission types:
-                        <ul>
-                            <li><strong>Full papers:</strong> Up to 8 pages</li>
-                            <li><strong>Short papers:</strong> Up to 4 pages</li>
-                        </ul>
-                    </li>
-                    <li>Submit papers via <a href="https://edas.info/" target="_blank">EDAS Submission</a>.</li>
-                </ul>
-            </div>
-        </section>
-    </main>
-
     <!-- Footer Start -->
     <div class="footer">
         <div class="footer_top">
@@ -122,36 +146,21 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-12 col-md-8">
                         <div class="footer_widget">
-                            <div class="news_updates text-center">
-                                <h4>News and Updates</h4>
-                                <p>Stay updated with the latest announcements and news</p>
-                                <div class="card-container">
-                                    <div class="card">
-                                        <img src="img/news1.jpg" alt="News Item 1">
-                                        <h4>Keynote Speaker Announced</h4>
-                                        <ul>
-                                            <li>Dr Ali Sorayyaei Azar to deliver the keynote address.</li>
-                                        </ul>
-                                        <a href="speaker.html">Read more</a>
-                                    </div>
-                                    <div class="card">
-                                        <img src="img/news2.jpg" alt="News Item 2">
-                                        <h4>Early Bird Registration Open</h4>
-                                        <ul>
-                                            <li>Register before Dec 31, 2024.</li>
-                                        </ul>
-                                        <a href="registration.html">Read more</a>
-                                    </div>
-                                    <div class="card">
-                                        <img src="img/news3.jpg" alt="News Item 3">
-                                        <h4>Call for Papers</h4>
-                                        <ul>
-                                            <li>Submit your abstracts by Jan 15, 2025.</li>
-                                        </ul>
-                                        <a href="author.html">Read more</a>
-                                    </div>
-                                </div>
-                            </div>
+                            <h2 style="text-align: center; margin-top: 30px;">Call for Papers</h2>
+                            <p style="text-align: justify; margin-top: 20px;">
+                                ICEPHSS’25 invites authors to submit original papers addressing any of the thrust areas listed below.
+                            </p>
+                            <h4>Submission Guidelines:</h4>
+                            <ul>
+                                <li>Papers must be written in English and formatted using the IEEE 2-column format.</li>
+                                <li>Submission types:
+                                    <ul>
+                                        <li><strong>Full papers:</strong> Up to 8 pages</li>
+                                        <li><strong>Short papers:</strong> Up to 4 pages</li>
+                                    </ul>
+                                </li>
+                                <li>Submit papers via <a href="https://edas.info/" target="_blank">EDAS Submission</a>.</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
