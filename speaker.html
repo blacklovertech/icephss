@@ -1,90 +1,97 @@
 <html>
 
+
+<!-- Mirrored from icephss.com/speaker.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 05 Dec 2024 13:50:35 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
-    <style>
-        .gm-err-container {
-            height: 100%;
-            width: 100%;
-            display: table;
-            background-color: #e8eaed;
-            position: relative;
-            left: 0;
-            top: 0;
-        }
+  <style>
+    .gm-err-container {
+      height: 100%;
+      width: 100%;
+      display: table;
+      background-color: #e8eaed;
+      position: relative;
+      left: 0;
+      top: 0;
+    }
 
-        .gm-err-content {
-            border-radius: 1px;
-            padding-top: 0;
-            padding-left: 10%;
-            padding-right: 10%;
-            position: static;
-            vertical-align: middle;
-            display: table-cell;
-        }
+    .gm-err-content {
+      border-radius: 1px;
+      padding-top: 0;
+      padding-left: 10%;
+      padding-right: 10%;
+      position: static;
+      vertical-align: middle;
+      display: table-cell;
+    }
 
-        .gm-err-content a {
-            color: #3c4043;
-        }
+    .gm-err-content a {
+      color: #3c4043;
+    }
 
-        .gm-err-icon {
-            text-align: center;
-        }
+    .gm-err-icon {
+      text-align: center;
+    }
 
-        .gm-err-title {
-            margin: 5px;
-            margin-bottom: 20px;
-            color: #3c4043;
-            font-family: Roboto, Arial, sans-serif;
-            text-align: center;
-            font-size: 24px;
-        }
+    .gm-err-title {
+      margin: 5px;
+      margin-bottom: 20px;
+      color: #3c4043;
+      font-family: Roboto, Arial, sans-serif;
+      text-align: center;
+      font-size: 24px;
+    }
 
-        .gm-err-message {
-            margin: 5px;
-            color: #3c4043;
-            font-family: Roboto, Arial, sans-serif;
-            text-align: center;
-            font-size: 12px;
-        }
+    .gm-err-message {
+      margin: 5px;
+      color: #3c4043;
+      font-family: Roboto, Arial, sans-serif;
+      text-align: center;
+      font-size: 12px;
+    }
 
-        .gm-err-autocomplete {
-            padding-left: 20px;
-            background-repeat: no-repeat;
-            -webkit-background-size: 15px 15px;
-            background-size: 15px 15px;
-        }
+    .gm-err-autocomplete {
+      padding-left: 20px;
+      background-repeat: no-repeat;
+      -webkit-background-size: 15px 15px;
+      background-size: 15px 15px;
+    }
 
-        .gm-style-moc {
-            background-color: rgba(0, 0, 0, 0.45);
-            pointer-events: none;
-            text-align: center;
-            -webkit-transition: opacity ease-in-out;
-            transition: opacity ease-in-out;
-        }
+    .gm-style-moc {
+      background-color: rgba(0, 0, 0, 0.45);
+      pointer-events: none;
+      text-align: center;
+      -webkit-transition: opacity ease-in-out;
+      transition: opacity ease-in-out;
+    }
 
-        .gm-style-mot {
-            color: white;
-            font-family: Roboto, Arial, sans-serif;
-            font-size: 22px;
-            margin: 0;
-            position: relative;
-            top: 50%;
-            transform: translateY(-50%);
-            -webkit-transform: translateY(-50%);
-            -ms-transform: translateY(-50%);
-        }
+    .gm-style-mot {
+      color: white;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 22px;
+      margin: 0;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+    }
 
-        sentinel {}
+    sentinel {}
 
-        .gm-style img {
-            max-width: none;
-        }
+    .gm-style img {
+      max-width: none;
+    }
 
-        .gm-style {
-            font: 400 11px Roboto, Arial, sans-serif;
-            text-decoration: none;
-        }
+    .gm-style {
+      font: 400 11px Roboto, Arial, sans-serif;
+      text-decoration: none;
+    }
 
+    .footer_widget p {
+      text-align: justify;
+    }
+    
         .footer_widget p {
             text-align: justify;
         }
@@ -172,478 +179,514 @@
                 grid-template-columns: 1fr;
             }
         }
-    </style>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>ICEPHSS’25</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+        #countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px; /* Space between the timer blocks */
+}
 
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/themify-icons.css" />
-    <link rel="stylesheet" href="css/gijgo.css" />
-    <link rel="stylesheet" href="css/nice-select.css" />
-    <link rel="stylesheet" href="css/animate.css" />
-    <link rel="stylesheet" href="css/flaticon.css" />
-    <link rel="stylesheet" href="css/slicknav.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css">
+#countdown > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#countdown .font-bold {
+  font-size: 2rem; /* Adjust font size as needed */
+  color: white; /* Ensure the text is visible */
+}
+
+  </style>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>ICEPHSS’25</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- <link rel="manifest" href="site.webmanifest"> -->
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.html" />
+  <!-- Place favicon.ico in the root directory -->
+
+  <!-- CSS here -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/themify-icons.css" />
+  <link rel="stylesheet" href="css/gijgo.css" />
+  <link rel="stylesheet" href="css/nice-select.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+  <link rel="stylesheet" href="css/flaticon.css" />
+  <link rel="stylesheet" href="css/slicknav.css" />
+<link href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.html">
+  <script type="text/javascript" async="" src="../www.google-analytics.com/analytics.js"></script>
+  <script type="text/javascript" charset="UTF-8"
+    src="../maps.googleapis.com/maps-api-v3/api/js/58/11a/common.js"></script>
+  <script type="text/javascript" charset="UTF-8"
+    src="../maps.googleapis.com/maps-api-v3/api/js/58/11a/util.js"></script>
+  <script type="text/javascript" charset="UTF-8"
+    src="../maps.googleapis.com/maps-api-v3/api/js/58/11a/map.js"></script>
+  <script type="text/javascript" charset="UTF-8"
+    src="../maps.googleapis.com/maps-api-v3/api/js/58/11a/onion.js"></script>
+  <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 </head>
 
 <body>
-    <!--[if lte IE 9]>
+  <!--[if lte IE 9]>
       <p class="browserupgrade">
         You are using an <strong>outdated</strong> browser. Please
         <a href="https://browsehappy.com/">upgrade your browser</a> to improve
         your experience and security.
       </p>
     <![endif]-->
-    <!-- header-start -->
-    <header>
-        <div class="header-area">
-            <div id="sticky-header" class="main-header-area">
-                <div class="container">
-                    <div class="header_bottom_border">
-                        <div class="row align-items-center">
-                            <div class="col-xl-3 col-lg-3">
-                                <div class="logo">
-                                    <a href="index.html">
-                                        <h3
-                                            style="font-family: 'Monoton', cursive; font-size: 30px; text-transform: uppercase; font-weight: 400; color: #fff; line-height: 1; margin-top: 55px; margin-bottom: 40px;">
-                                            ICEPHSS’25
-                                        </h3>
 
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-xl-6 col-lg-6">
-                                <div class="main-menu d-none d-lg-block">
-                                    <nav>
-                                        <ul id="navigation">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li>
-                                                <a href="#">About <i class="faa-angle-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="about.html">About</a></li>
-                                                    <li><a href="thrustareas.html">Thrust areas </a></li>
-                                                    <li><a href="editorialboard.html">Editorial Board</a></li>
+  <!-- header-start -->
+  <header>
+    <div class="header-area">
+      <div id="sticky-header" class="main-header-area">
+        <div class="container">
+          <div class="header_bottom_border">
+            <div class="row align-items-center">
+              <div class="col-xl-1 col-lg-1">
+                <div class="logo">
+                  <a href="index-2.html">
+                    <h3
+                      style="font-family: 'Monoton', cursive; font-size: 40px; text-transform: uppercase; font-weight: 400; color: #fff; line-height: 1; margin-top: 50px; margin-bottom: 40px;">
+                      ICEPHSS’25
+                    </h3>
 
-                                                </ul>
-                                            </li>
-                                            <li><a href="speaker.html">Speakers</a></li>
-                                            <li><a href="news.html">News</a></li>
-                                            <li><a href="author.html">Authors</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                            <!-- Mobile Menu Button -->
-                            <div class="col-12">
-                                <div class="mobile_menu d-block d-lg-none">
-                                    <button class="mobile-menu-toggle">
-                                        <i class="fa fa-bars"></i>
-                                    </button>
-                                    <nav class="mobile-nav" style="display: none;">
-                                        <ul id="mobile-navigation">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li>
-                                              <a href="#">About <i class="faa-angle-down"></i></a>
-                                              <ul class="submenu">
-                                                <li><a href="about.html">About</a></li>
-                                                <li><a href="thrustareas.html">Thrust areas </a></li>
-                                                <li><a href="editorialboard.html">Editorial Board</a></li>
-                      
-                                              </ul>
-                                            </li>
-                                            <li><a href="speaker.html">Speakers</a></li>
-                                            <li><a href="news.html">News</a></li>
-                                            <li><a href="author.html">Authors</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xl-9 col-lg-9">
+                <div class="main-menu d-none d-lg-block">
+                  <nav>
+                    <ul id="navigation">
+                      <li><a href="index-2.html">Home</a></li>
+                      <li>
+                        <a href="#">About <i class="faa-angle-down"></i></a>
+                        <ul class="submenu">
+                          <li><a href="about.html">About</a></li>
+                          <li><a href="thrustareas.html">Thrust areas </a></li>
+                          <li><a href="editorialboard.html">Editorial Board</a></li>
+                          <li><a href="contact.html">Contact</a></li>
 
-                        </div>
+                        </ul>
+                      </li>
+                      <li><a href="speaker.html">Speakers</a></li>
+                      <li><a href="news.html">News</a></li>
+                      <li><a href="author.html">Authors</a></li>
+                      <li><a href="calendar.html">Calander</a></li>
+                      <li><a href="callforpaper.html">Submit Paper</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+             
+
+              <!-- Mobile Menu Button -->
+              <div class="col-12">
+                <div class="mobile_menu d-block d-lg-none">
+
+                  <nav class="mobile-nav" style="display: none;">
+                    <ul id="mobile-navigation">
+                      <li><a href="index-2.html">Home</a></li>
+                      <li>
+                        <a href="#">About <i class="faa-angle-down"></i></a>
+                        <ul class="submenu">
+                          <li><a href="about.html">About</a></li>
+                          <li><a href="thrustareas.html">Thrust areas</a></li>
+                          <li><a href="venue.html">Venue</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="speaker.html">Speakers</a></li>
+                      <li><a href="author.html">Authors</a></li>
+                      <li><a href="news.html">News</a></li>
+                      <li><a href="calendar.html">Calander</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header-end -->
+
+  <!-- Add the following JavaScript for mobile menu toggle -->
+  <script>
+    // Toggle the mobile menu
+    document.querySelector('.mobile-menu-toggle').addEventListener('click', function () {
+      var mobileNav = document.querySelector('.mobile-nav');
+      mobileNav.style.display = mobileNav.style.display === 'block' ? 'none' : 'block';
+    });
+  </script>
+  <div class="bradcam_area">
+    <div class="single_bradcam d-flex align-items-center overlay" style="background-image: url(img/speakers.jpg);">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-xl-12">
+                    <div class="bradcam_text text-center">
+                        <h3>SPEAKERS</h3>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
-    <!-- header-end -->
+    </div>
+</div>
+<footer class="footer">
+    <div class="footer_top">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-8">
+                <div class="footer_widget">
+                    <div class="address_details text-center">
+                        <h4 style="text-align:center;">
+                            Keynote Speakers of ICEPHSS'25</h4>
+                        <p class="text-center">Meet Our Keynote Speakers of The Conference</p>
 
-    <!-- Add the following JavaScript for mobile menu toggle -->
-    <script>
-        // Toggle the mobile menu
-        document.querySelector('.mobile-menu-toggle').addEventListener('click', function () {
-            var mobileNav = document.querySelector('.mobile-nav');
-            mobileNav.style.display = mobileNav.style.display === 'block' ? 'none' : 'block';
-        });
-    </script>
-
-
-    <div class="bradcam_area">
-        <div class="single_bradcam  d-flex align-items-center bradcam_bg_1 overlay">
-            <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-xl-12">
-                        <div class="bradcam_text text-center">
-                            <div class="shape_1 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s"
-                                style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
-                                <img src="img/shapes/shape_1.svg" alt="">
+                        <div class="card-container">
+                            <!-- Dr Ali Sorayyaei Azar -->
+                            <div class="card">
+                                <img src="img/img.jpg" alt="Dr Ali Sorayyaei Azar">
+                                <h4 style="text-align:center;">Dr Ali Sorayyaei Azar</h4>
+                                <ul>
+                                    <li>Senior Lecturer, Department of Language and Literacy Education</li>
+                                    <li>University of Malaya, Malaysia</li>
+                                </ul>
                             </div>
-                            <div class="shape_2 wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s"
-                                style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInDown;">
-                                <img src="img/shapes/shape_2.svg" alt="">
+
+                            <!-- Dr Chahra Beloufa -->
+                            <div class="card">
+                                <img src="img/img.jpg" alt="Dr Chahra Beloufa">
+                                <h4 style="text-align:center;">Dr Chahra Beloufa</h4>
+                                <ul>
+                                    <li>Faculty of Language Studies, Department of Language Studies</li>
+                                    <li>Arab Open University, Saudi Arabia</li>
+                                </ul>
                             </div>
-                            <h3 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s"
-                                style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInRight;">
-                                Keynote Speakers of ICEPHSS'25
-                            </h3>
+
+                            <!-- Dr T. Marx -->
+                            <div class="card">
+                                <img src="img/img.jpg" alt="Dr T. Marx">
+                                <h4 style="text-align:center;">Dr T. Marx</h4>
+                                <ul>
+                                    <li>Professor, Department of English</li>
+                                    <li>Pondicherry University, Pondicherry</li>
+                                </ul>
+                            </div>
+
+                            <!-- Dr Jasmine Jose -->
+                            <div class="card">
+                                <img src="img/img.jpg" alt="Dr Jasmine Jose">
+                                <h4 style="text-align:center;">Dr Jasmine Jose</h4>
+                                <ul>
+                                    <li>Assistant Professor, Department of English</li>
+                                    <li>Nirmala College, Muvattupuzha (Autonomous), Kerala</li>
+                                </ul>
+                            </div>
+
+                            <!-- Dr J. John Sekar -->
+                            <div class="card">
+                                <img src="img/img.jpg" alt="Dr J. John Sekar">
+                                <h4 style="text-align:center;">Dr J. John Sekar</h4>
+                                <ul>
+                                    <li>Former Associate Professor & Head, Department of English</li>
+                                    <li>The American College, Madurai</li>
+                                </ul>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="footer">
-        <div class="footer_top">
-            <div class="container">
+</footer>
+<footer class="footer">
+    <div class="footer_top">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-8">
+                <div class="footer_widget">
+                    <div class="address_details text-center">
+                        <h4>Advisory Committee of ICEPHSS'25</h4>
+                        <p class="text-center">Meet Our Esteemed Advisory Committee
+                            Members</p>
 
-                <div class="row justify-content-center">
-                    <div class="col-lg-12 col-md-8">
-                        <div class="footer_widget">
-                            <div class="footer_widget">
-
-                                <div class="address_details text-center">
-
-                                    <h4 style="text-align:center;">
-                                        Keynote Speakers of ICEPHSS'25</h4>
-                                    <p class="text-center">Meet Our Keynote Speakers of The Conference</p>
-
-                                    <div class="card-container">
-                                        <!-- Dr Ali Sorayyaei Azar -->
-                                        <div class="card">
-                                            <img src="img/img.jpg" alt="Dr Ali Sorayyaei Azar">
-                                            <h4 style="text-align:center;">Dr Ali Sorayyaei Azar</h4>
-                                            <ul>
-                                                <li>Senior Lecturer, Department of Language and Literacy Education</li>
-                                                <li>University of Malaya, Malaysia</li>
-                                            </ul>
-                                        </div>
-
-                                        <!-- Dr Chahra Beloufa -->
-                                        <div class="card">
-                                            <img src="img/img.jpg" alt="Dr Chahra Beloufa">
-                                            <h4 style="text-align:center;">Dr Chahra Beloufa</h4>
-                                            <ul>
-                                                <li>Faculty of Language Studies, Department of Language Studies</li>
-                                                <li>Arab Open University, Saudi Arabia</li>
-                                            </ul>
-                                        </div>
-
-                                        <!-- Dr T. Marx -->
-                                        <div class="card">
-                                            <img src="img/img.jpg" alt="Dr T. Marx">
-                                            <h4 style="text-align:center;">Dr T. Marx</h4>
-                                            <ul>
-                                                <li>Professor, Department of English</li>
-                                                <li>Pondicherry University, Pondicherry</li>
-                                            </ul>
-                                        </div>
-
-                                        <!-- Dr Jasmine Jose -->
-                                        <div class="card">
-                                            <img src="img/img.jpg" alt="Dr Jasmine Jose">
-                                            <h4 style="text-align:center;">Dr Jasmine Jose</h4>
-                                            <ul>
-                                                <li>Assistant Professor, Department of English</li>
-                                                <li>Nirmala College, Muvattupuzha (Autonomous), Kerala</li>
-                                            </ul>
-                                        </div>
-
-                                        <!-- Dr J. John Sekar -->
-                                        <div class="card">
-                                            <img src="img/img.jpg" alt="Dr J. John Sekar">
-                                            <h4 style="text-align:center;">Dr J. John Sekar</h4>
-                                            <ul>
-                                                <li>Former Associate Professor & Head, Department of English</li>
-                                                <li>The American College, Madurai</li>
-                                            </ul>
-                                        </div>
-
-                                    </div>
-                                </div>
+                        <div class="card-container">
+                            <!-- Dr Ali Sorayyaei Azar -->
+                            <div class="card">
+                                <img src="img/img.jpg" alt="Dr Ali Sorayyaei Azar">
+                                <h4 style="text-align:center;">Dr Ali Sorayyaei Azar
+                                </h4>
+                                <ul>
+                                    <li>University of Malaya, Malaysia</li>
+                                </ul>
                             </div>
+
+                            <!-- Dr Chahra Beloufa -->
+                            <div class="card">
+                                <img src="img/img.jpg" alt="Dr Chahra Beloufa">
+                                <h4 style="text-align:center;">Dr Chahra Beloufa</h4>
+                                <ul>
+                                    <li>Arab Open University, Saudi Arabia</li>
+                                </ul>
+                            </div>
+
+                            <!-- Dr Nishad Nawaz -->
+                            <div class="card">
+                                <img src="img/img.jpg" alt="Dr Nishad Nawaz">
+                                <h4 style="text-align:center;">Dr Nishad Nawaz</h4>
+                                <ul>
+                                    <li>Kingdom University, Bahrain</li>
+                                </ul>
+                            </div>
+
+                            <!-- Dr Sathyaraj Venkatesan -->
+                            <div class="card">
+                                <img src="img/img.jpg" alt="Dr Sathyaraj Venkatesan">
+                                <h4 style="text-align:center;">Dr Sathyaraj Venkatesan
+                                </h4>
+                                <ul>
+                                    <li>NIT, Trichy</li>
+                                </ul>
+                            </div>
+
+                            <!-- Dr G. Bhuvaneswari -->
+                            <div class="card">
+                                <img src="img/img.jpg" alt="Dr G. Bhuvaneswari">
+                                <h4 style="text-align:center;">Dr G. Bhuvaneswari</h4>
+                                <ul>
+                                    <li>VIT, Chennai</li>
+                                </ul>
+                            </div>
+
+                            <!-- Dr S. Vijayakumar -->
+                            <div class="card">
+                                <img src="img/img.jpg" alt="Dr S. Vijayakumar">
+                                <h4 style="text-align:center;">Dr S. Vijayakumar</h4>
+                                <ul>
+                                    <li>B.S. Abdur Rahman Crescent Institute of Science
+                                        & Technology,
+                                        Chennai
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Dr Janaki Bojiah -->
+                            <div class="card">
+                                <img src="img/img.jpg" alt="Dr Janaki Bojiah">
+                                <h4 style="text-align:center;">Dr Janaki Bojiah</h4>
+                                <ul>
+                                    <li>Thaigarajar School of Management, Madurai</li>
+                                </ul>
+                            </div>
+
+                            <!-- Dr C. Govindaraj -->
+                            <div class="card">
+                                <img src="img/img.jpg" alt="Dr C. Govindaraj">
+                                <h4 style="text-align:center;">Dr C. Govindaraj</h4>
+                                <ul>
+                                    <li>Periyar University, Salem</li>
+                                </ul>
+                            </div>
+
+                            <!-- Dr K. Nagamani -->
+                            <div class="card">
+                                <img src="img/img.jpg" alt="Dr K. Nagamani">
+                                <h4 style="text-align:center;">Dr K. Nagamani</h4>
+                                <ul>
+                                    <li>SRM, Chennai</li>
+                                </ul>
+                            </div>
+
+                            <!-- Dr R. Manimozhi -->
+                            <div class="card">
+                                <img src="img/img.jpg" alt="Dr R. Manimozhi">
+                                <h4 style="text-align:center;">Dr R. Manimozhi</h4>
+                                <ul>
+                                    <li>A.D.M. College for Women (Autonomous),
+                                        Nagapattinam</li>
+                                </ul>
+                            </div>
+
+                            <!-- Dr Shubhra Jamwal -->
+                            <div class="card">
+                                <img src="img/img.jpg" alt="Dr Shubhra Jamwal">
+                                <h4 style="text-align:center;">Dr Shubhra Jamwal</h4>
+                                <ul>
+                                    <li>Govt. College of Education, Jammu</li>
+                                </ul>
+                            </div>
+
+                            <!-- Dr J. Sobhana Devi -->
+                            <div class="card">
+                                <img src="img/img.jpg" alt="Dr J. Sobhana Devi">
+                                <h4 style="text-align:center;">Dr J. Sobhana Devi</h4>
+                                <ul>
+                                    <li>SFR College, Sivakasi</li>
+                                </ul>
+                            </div>
+
+                            <!-- Dr T. S. Varadharajan -->
+                            <div class="card">
+                                <img src="img/img.jpg" alt="Dr T. S. Varadharajan">
+                                <h4 style="text-align:center;">Dr T. S. Varadharajan
+                                </h4>
+                                <ul>
+                                    <li>Thaigarajar College (Autonomous), Madurai</li>
+                                </ul>
+                            </div>
+
+                            <!-- Dr P. Jayakumar -->
+                            <div class="card">
+                                <img src="img/img.jpg" alt="Dr P. Jayakumar">
+                                <h4 style="text-align:center;">Dr P. Jayakumar</h4>
+                                <ul>
+                                    <li>St. Joseph’s College of Engineering, Chennai
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Dr G. Saravana Prabu -->
+                            <div class="card">
+                                <img src="img/img.jpg" alt="Dr G. Saravana Prabu">
+                                <h4 style="text-align:center;">Dr G. Saravana Prabu</h4>
+                                <ul>
+                                    <li>The Tamilnadu Dr. Ambedkar Law University,
+                                        Chennai</li>
+                                </ul>
+                            </div>
+
+                            <!-- Dr K. Rajesh -->
+                            <div class="card">
+                                <img src="img/img.jpg" alt="Dr K. Rajesh">
+                                <h4 style="text-align:center;">Dr K. Rajesh</h4>
+                                <ul>
+                                    <li>Sri Sai Ram Engineering College, Chennai</li>
+                                </ul>
+                            </div>
+
+                            <!-- Dr Maanini Jayal -->
+                            <div class="card">
+                                <img src="img/img.jpg" alt="Dr Maanini Jayal">
+                                <h4 style="text-align:center;">Dr Maanini Jayal</h4>
+                                <ul>
+                                    <li>St. Francis de Sales College (Autonomous),
+                                        Bangalore</li>
+                                </ul>
+                            </div>
+
+                            <!-- Dr Pradeepa -->
+                            <div class="card">
+                                <img src="img/img.jpg" alt="Dr Pradeepa">
+                                <h4 style="text-align:center;">Dr Pradeepa</h4>
+                                <ul>
+                                    <li>PSGR Krishnammal College for Women, Coimbatore
+                                    </li>
+                                </ul>
+                            </div>
+
                         </div>
+
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class="footer">
-        <div class="footer_top">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-12 col-md-8">
-                        <div class="footer_widget">
-                            <div class="footer_widget">
-                                <!-- Advisory Committee Section -->
-                                <div class="address_details text-center">
-                                    <h4 style="text-align:center;">Advisory Committee of ICEPHSS'25
-                                    </h4>
-                                    <p class="text-center">Meet Our Esteemed Advisory Committee
-                                        Members</p>
-
-                                    <div class="card-container">
-                                        <!-- Dr Ali Sorayyaei Azar -->
-                                        <div class="card">
-                                            <img src="img/img.jpg" alt="Dr Ali Sorayyaei Azar">
-                                            <h4 style="text-align:center;">Dr Ali Sorayyaei Azar
-                                            </h4>
-                                            <ul>
-                                                <li>University of Malaya, Malaysia</li>
-                                            </ul>
-                                        </div>
-
-                                        <!-- Dr Chahra Beloufa -->
-                                        <div class="card">
-                                            <img src="img/img.jpg" alt="Dr Chahra Beloufa">
-                                            <h4 style="text-align:center;">Dr Chahra Beloufa</h4>
-                                            <ul>
-                                                <li>Arab Open University, Saudi Arabia</li>
-                                            </ul>
-                                        </div>
-
-                                        <!-- Dr Nishad Nawaz -->
-                                        <div class="card">
-                                            <img src="img/img.jpg" alt="Dr Nishad Nawaz">
-                                            <h4 style="text-align:center;">Dr Nishad Nawaz</h4>
-                                            <ul>
-                                                <li>Kingdom University, Bahrain</li>
-                                            </ul>
-                                        </div>
-
-                                        <!-- Dr Sathyaraj Venkatesan -->
-                                        <div class="card">
-                                            <img src="img/img.jpg" alt="Dr Sathyaraj Venkatesan">
-                                            <h4 style="text-align:center;">Dr Sathyaraj Venkatesan
-                                            </h4>
-                                            <ul>
-                                                <li>NIT, Trichy</li>
-                                            </ul>
-                                        </div>
-
-                                        <!-- Dr G. Bhuvaneswari -->
-                                        <div class="card">
-                                            <img src="img/img.jpg" alt="Dr G. Bhuvaneswari">
-                                            <h4 style="text-align:center;">Dr G. Bhuvaneswari</h4>
-                                            <ul>
-                                                <li>VIT, Chennai</li>
-                                            </ul>
-                                        </div>
-
-                                        <!-- Dr S. Vijayakumar -->
-                                        <div class="card">
-                                            <img src="img/img.jpg" alt="Dr S. Vijayakumar">
-                                            <h4 style="text-align:center;">Dr S. Vijayakumar</h4>
-                                            <ul>
-                                                <li>B.S. Abdur Rahman Crescent Institute of Science
-                                                    & Technology,
-                                                    Chennai
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <!-- Dr Janaki Bojiah -->
-                                        <div class="card">
-                                            <img src="img/img.jpg" alt="Dr Janaki Bojiah">
-                                            <h4 style="text-align:center;">Dr Janaki Bojiah</h4>
-                                            <ul>
-                                                <li>Thaigarajar School of Management, Madurai</li>
-                                            </ul>
-                                        </div>
-
-                                        <!-- Dr C. Govindaraj -->
-                                        <div class="card">
-                                            <img src="img/img.jpg" alt="Dr C. Govindaraj">
-                                            <h4 style="text-align:center;">Dr C. Govindaraj</h4>
-                                            <ul>
-                                                <li>Periyar University, Salem</li>
-                                            </ul>
-                                        </div>
-
-                                        <!-- Dr K. Nagamani -->
-                                        <div class="card">
-                                            <img src="img/img.jpg" alt="Dr K. Nagamani">
-                                            <h4 style="text-align:center;">Dr K. Nagamani</h4>
-                                            <ul>
-                                                <li>SRM, Chennai</li>
-                                            </ul>
-                                        </div>
-
-                                        <!-- Dr R. Manimozhi -->
-                                        <div class="card">
-                                            <img src="img/img.jpg" alt="Dr R. Manimozhi">
-                                            <h4 style="text-align:center;">Dr R. Manimozhi</h4>
-                                            <ul>
-                                                <li>A.D.M. College for Women (Autonomous),
-                                                    Nagapattinam</li>
-                                            </ul>
-                                        </div>
-
-                                        <!-- Dr Shubhra Jamwal -->
-                                        <div class="card">
-                                            <img src="img/img.jpg" alt="Dr Shubhra Jamwal">
-                                            <h4 style="text-align:center;">Dr Shubhra Jamwal</h4>
-                                            <ul>
-                                                <li>Govt. College of Education, Jammu</li>
-                                            </ul>
-                                        </div>
-
-                                        <!-- Dr J. Sobhana Devi -->
-                                        <div class="card">
-                                            <img src="img/img.jpg" alt="Dr J. Sobhana Devi">
-                                            <h4 style="text-align:center;">Dr J. Sobhana Devi</h4>
-                                            <ul>
-                                                <li>SFR College, Sivakasi</li>
-                                            </ul>
-                                        </div>
-
-                                        <!-- Dr T. S. Varadharajan -->
-                                        <div class="card">
-                                            <img src="img/img.jpg" alt="Dr T. S. Varadharajan">
-                                            <h4 style="text-align:center;">Dr T. S. Varadharajan
-                                            </h4>
-                                            <ul>
-                                                <li>Thaigarajar College (Autonomous), Madurai</li>
-                                            </ul>
-                                        </div>
-
-                                        <!-- Dr P. Jayakumar -->
-                                        <div class="card">
-                                            <img src="img/img.jpg" alt="Dr P. Jayakumar">
-                                            <h4 style="text-align:center;">Dr P. Jayakumar</h4>
-                                            <ul>
-                                                <li>St. Joseph’s College of Engineering, Chennai
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                        <!-- Dr G. Saravana Prabu -->
-                                        <div class="card">
-                                            <img src="img/img.jpg" alt="Dr G. Saravana Prabu">
-                                            <h4 style="text-align:center;">Dr G. Saravana Prabu</h4>
-                                            <ul>
-                                                <li>The Tamilnadu Dr. Ambedkar Law University,
-                                                    Chennai</li>
-                                            </ul>
-                                        </div>
-
-                                        <!-- Dr K. Rajesh -->
-                                        <div class="card">
-                                            <img src="img/img.jpg" alt="Dr K. Rajesh">
-                                            <h4 style="text-align:center;">Dr K. Rajesh</h4>
-                                            <ul>
-                                                <li>Sri Sai Ram Engineering College, Chennai</li>
-                                            </ul>
-                                        </div>
-
-                                        <!-- Dr Maanini Jayal -->
-                                        <div class="card">
-                                            <img src="img/img.jpg" alt="Dr Maanini Jayal">
-                                            <h4 style="text-align:center;">Dr Maanini Jayal</h4>
-                                            <ul>
-                                                <li>St. Francis de Sales College (Autonomous),
-                                                    Bangalore</li>
-                                            </ul>
-                                        </div>
-
-                                        <!-- Dr Pradeepa -->
-                                        <div class="card">
-                                            <img src="img/img.jpg" alt="Dr Pradeepa">
-                                            <h4 style="text-align:center;">Dr Pradeepa</h4>
-                                            <ul>
-                                                <li>PSGR Krishnammal College for Women, Coimbatore
-                                                </li>
-                                            </ul>
-                                        </div>
-
-                                    </div>
+</footer>
 
 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<? php ?>
+<footer class="footer"><br>
+  <div class="copy-right_text">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <h3 class="copy_right text-center wow fadeInDown"
+            style="text-align: center; font-family: 'Monoton', cursive; font-size: 30px; text-transform: uppercase; font-weight: 400; color: #fff; line-height: 1;">
+            ICEPHSS’25
+          </h3>
 
-            <div class="copy-right_text">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <h3 class="copy_right text-center wow fadeInDown"
-                                style="text-align: center; font-family: 'Monoton', cursive; font-size: 30px; text-transform: uppercase; font-weight: 400; color: #fff; line-height: 1;">
-                                ICEPHSS’25
-                            </h3>
+          <p class="copy_right text-center wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s"
+            style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInDown;">
+            Copyright &copy;
 
-                            <p class="copy_right text-center wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s"
-                                style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInDown;">
-                                Copyright &copy;
-
-                                <script>
-                                    document.write(new Date().getFullYear());
-                                </script>
-                                All rights reserved | Made with
-                                &#10084; by
-                                <a href="https://blacklovertech.in" target="_blank" aria-label="blacklovertech">BLT</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            All rights reserved | Made with
+            &#10084; by
+            <a href="https://blacklovertech.in/" target="_blank" aria-label="blacklovertech">BLT</a>
+          </p>
         </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- footer_end  -->
+<script>
+  // Countdown script
+  function updateCountdown() {
+    const eventDate = new Date('2025-02-22T23:59:59'); // End date
+    const now = new Date();
+    const timeDiff = eventDate - now;
 
-        </footer>
-        <!-- footer_end  -->
+    if (timeDiff > 0) {
+      const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
 
-        <!-- JS here -->
-        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="js/vendor/jquery-1.12.4.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/owl.carousel.min.js"></script>
-        <script src="js/isotope.pkgd.min.js"></script>
-        <script src="js/ajax-form.js"></script>
-        <script src="js/waypoints.min.js"></script>
-        <script src="js/jquery.counterup.min.js"></script>
-        <script src="js/imagesloaded.pkgd.min.js"></script>
-        <script src="js/scrollIt.js"></script>
-        <script src="js/jquery.scrollUp.min.js"></script>
-        <script src="js/wow.min.js"></script>
-        <script src="js/gijgo.min.js"></script>
-        <script src="js/nice-select.min.js"></script>
-        <script src="js/jquery.slicknav.min.js"></script>
-        <script src="js/jquery.magnific-popup.min.js"></script>
-        <script src="js/tilt.jquery.js"></script>
-        <script src="js/plugins.js"></script>
+      document.getElementById('days').textContent = days;
+      document.getElementById('hours').textContent = hours;
+      document.getElementById('minutes').textContent = minutes;
+      document.getElementById('seconds').textContent = seconds;
+    } else {
+      // Countdown complete
+      document.getElementById('countdown').innerHTML = '<div>Event is Live!</div>';
+    }
+  }
 
-        <!--contact js-->
-        <script src="js/contact.js"></script>
-        <script src="js/jquery.ajaxchimp.min.js"></script>
-        <script src="js/jquery.form.js"></script>
-        <script src="js/jquery.validate.min.js"></script>
-        <script src="js/mail-script.js"></script>
+  // Update countdown every second
+  setInterval(updateCountdown, 1000);
+</script>
+<!-- JS here -->
+<script src="js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="js/vendor/jquery-1.12.4.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/ajax-form.html"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/scrollIt.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/gijgo.min.js"></script>
+<script src="js/nice-select.min.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/tilt.jquery.js"></script>
+<script src="js/plugins.js"></script>
 
-        <script src="js/main.js"></script>
+<!--contact js-->
+<script src="js/contact.js"></script>
+<script src="js/jquery.ajaxchimp.min.js"></script>
+<script src="js/jquery.form.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/mail-script.html"></script>
 
-</body>
-
-</html>
+<script src="js/main.js"></script>
+<? php ?>

@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Anton|Monoton|Muli:400,400i,500,500i,600&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Anton|Monoton|Muli:400,400i,500,500i,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Anton|Monoton|Muli:400,400i,500,500i,600&amp;display=swap");
+@import url("https://fonts.googleapis.com/css?family=Anton|Monoton|Muli:400,400i,500,500i,600&amp;display=swap");
 /* line 1, ../../Arafath/CL/December/236. Event-02/HTML/scss/_extend.scss */
 
 /* Normal desktop :1200px. */
@@ -1441,7 +1441,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/236. Event-02/HTML/scss/_bradcam.scss */
 .bradcam_bg_1 {
-  background-image: url(../img/banner/bradcam_1.png);
+  background-image: url(../img/banner/bradcam_1.html);
 }
 
 /* line 4, ../../Arafath/CL/December/236. Event-02/HTML/scss/_bradcam.scss */
@@ -1795,7 +1795,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/236. Event-02/HTML/scss/_program_details.scss */
 .detials_bg_1 {
-  background-image: url(../img/program_details/details_banner.png);
+  background-image: url(../img/program_details/details_banner.html);
 }
 
 /* line 4, ../../Arafath/CL/December/236. Event-02/HTML/scss/_program_details.scss */
@@ -3109,7 +3109,7 @@ h6 {
 
 /* line 798, ../../Arafath/CL/December/236. Event-02/HTML/scss/_elements.scss */
 .primary-checkbox input:checked + label {
-  background: url(../img/elements/primary-check.png) no-repeat center
+  background: url(../img/elements/primary-check.html) no-repeat center
     center/cover;
   border: none;
 }
@@ -3152,7 +3152,7 @@ h6 {
 
 /* line 835, ../../Arafath/CL/December/236. Event-02/HTML/scss/_elements.scss */
 .confirm-checkbox input:checked + label {
-  background: url(../img/elements/success-check.png) no-repeat center
+  background: url(../img/elements/success-check.html) no-repeat center
     center/cover;
   border: none;
 }
@@ -3201,7 +3201,7 @@ h6 {
 
 /* line 876, ../../Arafath/CL/December/236. Event-02/HTML/scss/_elements.scss */
 .disabled-checkbox input:checked + label {
-  background: url(../img/elements/disabled-check.png) no-repeat center
+  background: url(../img/elements/disabled-check.html) no-repeat center
     center/cover;
   border: none;
 }
@@ -3244,7 +3244,7 @@ h6 {
 
 /* line 913, ../../Arafath/CL/December/236. Event-02/HTML/scss/_elements.scss */
 .primary-radio input:checked + label {
-  background: url(../img/elements/primary-radio.png) no-repeat center
+  background: url(../img/elements/primary-radio.html) no-repeat center
     center/cover;
   border: none;
 }
@@ -3287,7 +3287,7 @@ h6 {
 
 /* line 950, ../../Arafath/CL/December/236. Event-02/HTML/scss/_elements.scss */
 .confirm-radio input:checked + label {
-  background: url(../img/elements/success-radio.png) no-repeat center
+  background: url(../img/elements/success-radio.html) no-repeat center
     center/cover;
   border: none;
 }
@@ -3336,7 +3336,7 @@ h6 {
 
 /* line 991, ../../Arafath/CL/December/236. Event-02/HTML/scss/_elements.scss */
 .disabled-radio input:checked + label {
-  background: url(../img/elements/disabled-radio.png) no-repeat center
+  background: url(../img/elements/disabled-radio.html) no-repeat center
     center/cover;
   border: none;
 }

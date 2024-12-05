@@ -1,90 +1,97 @@
 <html>
 
+
+<!-- Mirrored from icephss.com/news.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 05 Dec 2024 13:50:36 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
-    <style>
-        .gm-err-container {
-            height: 100%;
-            width: 100%;
-            display: table;
-            background-color: #e8eaed;
-            position: relative;
-            left: 0;
-            top: 0;
-        }
+  <style>
+    .gm-err-container {
+      height: 100%;
+      width: 100%;
+      display: table;
+      background-color: #e8eaed;
+      position: relative;
+      left: 0;
+      top: 0;
+    }
 
-        .gm-err-content {
-            border-radius: 1px;
-            padding-top: 0;
-            padding-left: 10%;
-            padding-right: 10%;
-            position: static;
-            vertical-align: middle;
-            display: table-cell;
-        }
+    .gm-err-content {
+      border-radius: 1px;
+      padding-top: 0;
+      padding-left: 10%;
+      padding-right: 10%;
+      position: static;
+      vertical-align: middle;
+      display: table-cell;
+    }
 
-        .gm-err-content a {
-            color: #3c4043;
-        }
+    .gm-err-content a {
+      color: #3c4043;
+    }
 
-        .gm-err-icon {
-            text-align: center;
-        }
+    .gm-err-icon {
+      text-align: center;
+    }
 
-        .gm-err-title {
-            margin: 5px;
-            margin-bottom: 20px;
-            color: #3c4043;
-            font-family: Roboto, Arial, sans-serif;
-            text-align: center;
-            font-size: 24px;
-        }
+    .gm-err-title {
+      margin: 5px;
+      margin-bottom: 20px;
+      color: #3c4043;
+      font-family: Roboto, Arial, sans-serif;
+      text-align: center;
+      font-size: 24px;
+    }
 
-        .gm-err-message {
-            margin: 5px;
-            color: #3c4043;
-            font-family: Roboto, Arial, sans-serif;
-            text-align: center;
-            font-size: 12px;
-        }
+    .gm-err-message {
+      margin: 5px;
+      color: #3c4043;
+      font-family: Roboto, Arial, sans-serif;
+      text-align: center;
+      font-size: 12px;
+    }
 
-        .gm-err-autocomplete {
-            padding-left: 20px;
-            background-repeat: no-repeat;
-            -webkit-background-size: 15px 15px;
-            background-size: 15px 15px;
-        }
+    .gm-err-autocomplete {
+      padding-left: 20px;
+      background-repeat: no-repeat;
+      -webkit-background-size: 15px 15px;
+      background-size: 15px 15px;
+    }
 
-        .gm-style-moc {
-            background-color: rgba(0, 0, 0, 0.45);
-            pointer-events: none;
-            text-align: center;
-            -webkit-transition: opacity ease-in-out;
-            transition: opacity ease-in-out;
-        }
+    .gm-style-moc {
+      background-color: rgba(0, 0, 0, 0.45);
+      pointer-events: none;
+      text-align: center;
+      -webkit-transition: opacity ease-in-out;
+      transition: opacity ease-in-out;
+    }
 
-        .gm-style-mot {
-            color: white;
-            font-family: Roboto, Arial, sans-serif;
-            font-size: 22px;
-            margin: 0;
-            position: relative;
-            top: 50%;
-            transform: translateY(-50%);
-            -webkit-transform: translateY(-50%);
-            -ms-transform: translateY(-50%);
-        }
+    .gm-style-mot {
+      color: white;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 22px;
+      margin: 0;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+    }
 
-        sentinel {}
+    sentinel {}
 
-        .gm-style img {
-            max-width: none;
-        }
+    .gm-style img {
+      max-width: none;
+    }
 
-        .gm-style {
-            font: 400 11px Roboto, Arial, sans-serif;
-            text-decoration: none;
-        }
+    .gm-style {
+      font: 400 11px Roboto, Arial, sans-serif;
+      text-decoration: none;
+    }
 
+    .footer_widget p {
+      text-align: justify;
+    }
+    
         .footer_widget p {
             text-align: justify;
         }
@@ -172,30 +179,65 @@
                 grid-template-columns: 1fr;
             }
         }
-    </style>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>ICEPHSS’25</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+        #countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px; /* Space between the timer blocks */
+}
 
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/themify-icons.css" />
-    <link rel="stylesheet" href="css/gijgo.css" />
-    <link rel="stylesheet" href="css/nice-select.css" />
-    <link rel="stylesheet" href="css/animate.css" />
-    <link rel="stylesheet" href="css/flaticon.css" />
-    <link rel="stylesheet" href="css/slicknav.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/responsive.css">
+#countdown > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#countdown .font-bold {
+  font-size: 2rem; /* Adjust font size as needed */
+  color: white; /* Ensure the text is visible */
+}
+
+  </style>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>ICEPHSS’25</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- <link rel="manifest" href="site.webmanifest"> -->
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.html" />
+  <!-- Place favicon.ico in the root directory -->
+
+  <!-- CSS here -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/themify-icons.css" />
+  <link rel="stylesheet" href="css/gijgo.css" />
+  <link rel="stylesheet" href="css/nice-select.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+  <link rel="stylesheet" href="css/flaticon.css" />
+  <link rel="stylesheet" href="css/slicknav.css" />
+<link href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.html">
+  <script type="text/javascript" async="" src="../www.google-analytics.com/analytics.js"></script>
+  <script type="text/javascript" charset="UTF-8"
+    src="../maps.googleapis.com/maps-api-v3/api/js/58/11a/common.js"></script>
+  <script type="text/javascript" charset="UTF-8"
+    src="../maps.googleapis.com/maps-api-v3/api/js/58/11a/util.js"></script>
+  <script type="text/javascript" charset="UTF-8"
+    src="../maps.googleapis.com/maps-api-v3/api/js/58/11a/map.js"></script>
+  <script type="text/javascript" charset="UTF-8"
+    src="../maps.googleapis.com/maps-api-v3/api/js/58/11a/onion.js"></script>
+  <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 </head>
 
 <body>
-    <!--[if lte IE 9]>
+  <!--[if lte IE 9]>
       <p class="browserupgrade">
         You are using an <strong>outdated</strong> browser. Please
         <a href="https://browsehappy.com/">upgrade your browser</a> to improve
@@ -203,70 +245,70 @@
       </p>
     <![endif]-->
 
-   <!-- header-start -->
-   <header>
+  <!-- header-start -->
+  <header>
     <div class="header-area">
       <div id="sticky-header" class="main-header-area">
         <div class="container">
           <div class="header_bottom_border">
             <div class="row align-items-center">
-              <div class="col-xl-3 col-lg-3">
+              <div class="col-xl-1 col-lg-1">
                 <div class="logo">
-                  <a href="index.html">
+                  <a href="index-2.html">
                     <h3
-                      style="font-family: 'Monoton', cursive; font-size: 30px; text-transform: uppercase; font-weight: 400; color: #fff; line-height: 1; margin-top: 55px; margin-bottom: 40px;">
+                      style="font-family: 'Monoton', cursive; font-size: 40px; text-transform: uppercase; font-weight: 400; color: #fff; line-height: 1; margin-top: 50px; margin-bottom: 40px;">
                       ICEPHSS’25
                     </h3>
 
                   </a>
                 </div>
               </div>
-              <div class="col-xl-6 col-lg-6">
+              <div class="col-xl-9 col-lg-9">
                 <div class="main-menu d-none d-lg-block">
                   <nav>
                     <ul id="navigation">
-                        <li><a href="index.html">Home</a></li>
-                        <li>
-                          <a href="#">About <i class="faa-angle-down"></i></a>
-                          <ul class="submenu">
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="thrustareas.html">Thrust areas </a></li>
-                            <li><a href="editorialboard.html">Editorial Board</a></li>
-  
-                          </ul>
-                        </li>
-                        <li><a href="speaker.html">Speakers</a></li>
-                        <li><a href="news.html">News</a></li>
-                        <li><a href="author.html">Authors</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                      <li><a href="index-2.html">Home</a></li>
+                      <li>
+                        <a href="#">About <i class="faa-angle-down"></i></a>
+                        <ul class="submenu">
+                          <li><a href="about.html">About</a></li>
+                          <li><a href="thrustareas.html">Thrust areas </a></li>
+                          <li><a href="editorialboard.html">Editorial Board</a></li>
+                          <li><a href="contact.html">Contact</a></li>
+
+                        </ul>
+                      </li>
+                      <li><a href="speaker.html">Speakers</a></li>
+                      <li><a href="news.html">News</a></li>
+                      <li><a href="author.html">Authors</a></li>
+                      <li><a href="calendar.html">Calander</a></li>
+                      <li><a href="callforpaper.html">Submit Paper</a></li>
                     </ul>
                   </nav>
                 </div>
               </div>
-            
+             
 
               <!-- Mobile Menu Button -->
               <div class="col-12">
                 <div class="mobile_menu d-block d-lg-none">
-                  <button class="mobile-menu-toggle">
-                    <i class="fa fa-bars"></i>
-                  </button>
+
                   <nav class="mobile-nav" style="display: none;">
                     <ul id="mobile-navigation">
-                        <li><a href="index.html">Home</a></li>
-                        <li>
-                          <a href="#">About <i class="faa-angle-down"></i></a>
-                          <ul class="submenu">
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="thrustareas.html">Thrust areas </a></li>
-                            <li><a href="editorialboard.html">Editorial Board</a></li>
-  
-                          </ul>
-                        </li>
-                        <li><a href="speaker.html">Speakers</a></li>
-                        <li><a href="news.html">News</a></li>
-                        <li><a href="author.html">Authors</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                      <li><a href="index-2.html">Home</a></li>
+                      <li>
+                        <a href="#">About <i class="faa-angle-down"></i></a>
+                        <ul class="submenu">
+                          <li><a href="about.html">About</a></li>
+                          <li><a href="thrustareas.html">Thrust areas</a></li>
+                          <li><a href="venue.html">Venue</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="speaker.html">Speakers</a></li>
+                      <li><a href="author.html">Authors</a></li>
+                      <li><a href="news.html">News</a></li>
+                      <li><a href="calendar.html">Calander</a></li>
+                      <li><a href="contact.html">Contact</a></li>
                     </ul>
                   </nav>
                 </div>
@@ -288,118 +330,205 @@
       mobileNav.style.display = mobileNav.style.display === 'block' ? 'none' : 'block';
     });
   </script>
+  <style>
+    .card-container {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 
+    .card {
+        background: #f8f9fa;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        max-width: 300px;
+        text-align: center;
+    }
 
-    <div class="footer">
-        <div class="footer">
-            <div class="footer_top">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-12 col-md-8">
-                            <div class="footer_widget">
-                                <!-- News and Updates Section -->
-                                <div class="news_updates text-center">
-                                    <h4 style="text-align:center;">News and Updates</h4>
-                                    <p class="text-center">Stay updated with the latest announcements and news</p>
-        
-                                    <div class="card-container">
-                                        <!-- News Item 1 -->
-                                        <div class="card">
-                                            <img src="img/news1.jpg" alt="News Item 1">
-                                            <h4 style="text-align:center;">Keynote Speaker Announced</h4>
-                                            <ul>
-                                                <li>Dr Ali Sorayyaei Azar  to deliver the keynote address.</li>
-                                            </ul>
-                                            <a href="speaker.html#">Read more</a>
-                                        </div>
-        
-                                        <!-- News Item 2 -->
-                                        <div class="card">
-                                            <img src="img/news2.jpg" alt="News Item 2">
-                                            <h4 style="text-align:center;">Early Bird Registration Open</h4>
-                                            <ul>
-                                                <li>Avail discounted rates by registering before December 31, 2024.</li>
-                                            </ul>
-                                            <a href="registration.html">Read more</a>
-                                        </div>
-        
-                                        <!-- News Item 3 -->
-                                        <div class="card">
-                                            <img src="img/news3.jpg" alt="News Item 3">
-                                            <h4 style="text-align:center;">Call for Papers</h4>
-                                            <ul>
-                                                <li>Submit your abstracts by January 15, 2025, to participate in the conference.</li>
-                                            </ul>
-                                            <a href="author.html">Read more</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End of News and Updates Section -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        
+    .card img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
 
-        <div class="copy-right_text">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <h3 class="copy_right text-center wow fadeInDown"
-                            style="text-align: center; font-family: 'Monoton', cursive; font-size: 30px; text-transform: uppercase; font-weight: 400; color: #fff; line-height: 1;">
-                            ICEPHSS’25
-                        </h3>
+    .news-details {
+        margin: 10px 0;
+        font-size: 14px;
+    }
 
-                        <p class="copy_right text-center wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s"
-                            style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInDown;">
-                            Copyright &copy;
-
-                            <script>
-                                document.write(new Date().getFullYear());
-                            </script>
-                            All rights reserved | Made with
-                            &#10084; by
-                            <a href="https://blacklovertech.in" target="_blank" aria-label="blacklovertech">BLT</a>
-                        </p>
+    .news-date,
+    .news-topic {
+        margin-bottom: 5px;
+        color: #555;
+        font-weight: bold;
+    }
+</style>
+<div class="bradcam_area">
+    <div class="single_bradcam d-flex align-items-center overlay" style="background-image: url(img/header-news.png);">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-xl-12">
+                    <div class="bradcam_text text-center">
+                        <h3>NEWS</h3>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    </footer>
-    <!-- footer_end  -->
+</div>
+<footer class="footer">
+    <div class="footer_top">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-8">
+                <div class="footer_widget">
+                    <div class="address_details text-center">
+                        <!-- News and Updates Section -->
+                        <h4 style="text-align:center;">News and Updates</h4>
+                        <p class="text-center">Stay updated with the latest announcements and news</p>
 
-    <!-- JS here -->
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/ajax-form.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/scrollIt.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/gijgo.min.js"></script>
-    <script src="js/nice-select.min.js"></script>
-    <script src="js/jquery.slicknav.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/tilt.jquery.js"></script>
-    <script src="js/plugins.js"></script>
+                        <div class="card-container">
+                            <!-- News Item 1 -->
+                            <div class="card">
+                                <img src="img/news_1.jpg.webp" alt="Keynote Speaker">
+                                <h4 style="text-align:center;">Keynote Speaker Announced</h4>
+                                <div class="news-details">
+                                    <div class="news-date"><strong>Date:</strong> December 1, 2024</div>
+                                    <div class="news-topic"><strong>Topic:</strong> Keynote Address</div>
+                                    <ul>
+                                        <li>Dr. Ali Sorayyaei Azar will deliver the keynote address.</li>
+                                    </ul>
+                                </div>
+                                <a href="speaker.html">Read more</a>
+                            </div>
 
-    <!--contact js-->
-    <script src="js/contact.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/mail-script.js"></script>
 
-    <script src="js/main.js"></script>
 
-</body>
+                            <!-- News Item 3 -->
+                            <div class="card">
+                                <img src="img/news_3.jpg.webp" alt="Call for Papers">
+                                <h4 style="text-align:center;">Call for Papers</h4>
+                                <div class="news-details">
+                                    <div class="news-date"><strong>Date:</strong> December 2, 2024</div>
+                                    <div class="news-topic"><strong>Topic:</strong> Paper Submission</div>
+                                    <ul>
+                                        <li>Submit your abstracts by January 15, 2025, to participate in the conference.
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a href="register.html">Submit Paper Now</a>
+                            </div>
 
-</html>
+                            <!-- News Item: Important Dates for ICEPHSS’25 -->
+                            <div class="card">
+                                <img src="img/news_important_dates.html" alt="Important Dates">
+                                <h4 style="text-align:center;">Important Dates for ICEPHSS’25 Announced</h4>
+                                <div class="news-details">
+                                    <div class="news-date"><strong>Date:</strong> December 2, 2024</div>
+                                    <div class="news-topic"><strong>Topic:</strong> Conference Schedule</div>
+                                    <ul>
+                                        <li><strong>10.01.2025:</strong> Abstract Submission Deadline</li>
+                                        <li><strong>22.01.2025:</strong> Acceptance Notification</li>
+                                        <li><strong>25.01.2025:</strong> Last Date of Registration</li>
+                                        <li><strong>10.02.2025:</strong> Full Paper Submission Deadline</li>
+                                        <li><strong>20-21.02.2025:</strong> Conference Dates</li>
+                                    </ul>
+                                </div>
+                                <a href="calendar.html">View Full Schedule</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- End of News and Updates Section -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br>
+</footer>
+
+<? php ?>
+<footer class="footer"><br>
+  <div class="copy-right_text">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <h3 class="copy_right text-center wow fadeInDown"
+            style="text-align: center; font-family: 'Monoton', cursive; font-size: 30px; text-transform: uppercase; font-weight: 400; color: #fff; line-height: 1;">
+            ICEPHSS’25
+          </h3>
+
+          <p class="copy_right text-center wow fadeInDown" data-wow-duration="1s" data-wow-delay=".5s"
+            style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s; animation-name: fadeInDown;">
+            Copyright &copy;
+
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            All rights reserved | Made with
+            &#10084; by
+            <a href="https://blacklovertech.in/" target="_blank" aria-label="blacklovertech">BLT</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- footer_end  -->
+<script>
+  // Countdown script
+  function updateCountdown() {
+    const eventDate = new Date('2025-02-22T23:59:59'); // End date
+    const now = new Date();
+    const timeDiff = eventDate - now;
+
+    if (timeDiff > 0) {
+      const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
+
+      document.getElementById('days').textContent = days;
+      document.getElementById('hours').textContent = hours;
+      document.getElementById('minutes').textContent = minutes;
+      document.getElementById('seconds').textContent = seconds;
+    } else {
+      // Countdown complete
+      document.getElementById('countdown').innerHTML = '<div>Event is Live!</div>';
+    }
+  }
+
+  // Update countdown every second
+  setInterval(updateCountdown, 1000);
+</script>
+<!-- JS here -->
+<script src="js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="js/vendor/jquery-1.12.4.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/ajax-form.html"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/scrollIt.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/gijgo.min.js"></script>
+<script src="js/nice-select.min.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/tilt.jquery.js"></script>
+<script src="js/plugins.js"></script>
+
+<!--contact js-->
+<script src="js/contact.js"></script>
+<script src="js/jquery.ajaxchimp.min.js"></script>
+<script src="js/jquery.form.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/mail-script.html"></script>
+
+<script src="js/main.js"></script>
+<? php ?>
