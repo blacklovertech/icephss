@@ -7,6 +7,8 @@ WORKDIR /var/www/html
 # Copy your application files into the container
 COPY . /var/www/html/
 
+RUN chmod -R 777 /var/www/html/
+
 # Expose the port for web access
 EXPOSE 80
 
