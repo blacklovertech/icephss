@@ -252,7 +252,7 @@
             <div class="row align-items-center">
               <div class="col-xl-1 col-lg-1">
                 <div class="logo">
-                  <a href="index.php">
+                  <a href="home.php">
                     <h3
                       style="font-family: 'Monoton', cursive; font-size: 40px; text-transform: uppercase; font-weight: 400; color: #fff; line-height: 1; margin-top: 50px; margin-bottom: 40px;">
                       ICEPHSS’25
