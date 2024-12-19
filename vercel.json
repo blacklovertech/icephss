@@ -1,10 +1,12 @@
 {
     "functions": {
       "api/*.php": {
-        "runtime": "vercel-php@0.6.0"
+        "runtime": "nodejs16.x"
       }
     },
     "routes": [
       { "src": "/(.*)",  "dest": "/api/index.php" }
     ]
   }
+
+  
