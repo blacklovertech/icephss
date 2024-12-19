@@ -1,9 +1,8 @@
 {
-    "name": "my-php-app/my-web-application",  
+    "name": "my-php-app/my-web-application",
     "description": "My PHP Web Application",
     "require": {
-      "php": "^7.4",
-      "some/package": "^1.0"
+      "php": "^7.4"
     },
     "scripts": {
       "post-install-cmd": [
