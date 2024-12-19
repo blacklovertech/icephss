@@ -1,0 +1,14 @@
+{
+    "name": "my-php-app",
+    "description": "My PHP Web Application",
+    "require": {
+      "php": "^7.4",
+      "some/package": "^1.0"  
+    },
+    "scripts": {
+      "post-install-cmd": [
+        "echo 'Dependencies installed!'"
+      ]
+    }
+  }
+  
