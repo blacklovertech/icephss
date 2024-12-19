@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: my-php-app
-    env: php
-    buildCommand: 'composer install'
-    startCommand: 'php -S 0.0.0.0:8080 -t public_html'
-    plan: free
