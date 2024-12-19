@@ -1,4 +1,4 @@
-<? php ?>
+<?php ?>
 <footer class="footer"><br>
   <div class="copy-right_text">
     <div class="container">
