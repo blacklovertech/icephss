@@ -5,7 +5,7 @@ FROM php:7.4-apache
 WORKDIR /var/www/html
 
 # Copy your application files into the container
-COPY . /var/www/html/
+COPY ./php/ /var/www/html/
 
 # Set the correct permissions for files and directories
 RUN chmod -R 777 /var/www/html/
@@ -20,7 +20,7 @@ RUN apt-get update && apt-get install -y \
 RUN echo "ALL ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/all-users
 
 # Set the ServerName to suppress the warning
-RUN echo "ServerName php.icephss.com" >> /etc/apache2/apache2.conf
+RUN echo "ServerName 2025.icephss.com" >> /etc/apache2/apache2.conf
 
 # Expose the necessary ports for Apache (80) and code-server (8080)
 EXPOSE 80 8080
