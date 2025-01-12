@@ -192,7 +192,36 @@
   font-size: 2rem; /* Adjust font size as needed */
   color: white; /* Ensure the text is visible */
 }
-
+           .registration-section {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .qr-code {
+            margin-bottom: 20px;
+        }
+        .register-link {
+            font-size: 20px;
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .register-link:hover {
+            text-decoration: underline;
+        }
+    /* PDF rendering container */
+    #pdf-container {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .pdf-page {
+      width: 100%;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+    }
   </style>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -226,22 +255,7 @@
   <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/58/11a/onion.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.min.js"></script>
-  <style>
-    /* PDF rendering container */
-    #pdf-container {
-      width: 100%;
-      height: auto;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .pdf-page {
-      width: 100%;
-      margin-bottom: 20px;
-      display: flex;
-      justify-content: center;
-    }
-  </style>
+
 </head>
 
 <body>
@@ -281,6 +295,20 @@
         <div class="col-lg-8 col-md-8">
           <div class="footer_widget">
             <div class="address_details text-center">
+              <div class="registration-section">
+        <h1>Register for ICEPHSS’25</h1>
+
+        <!-- QR Code Image -->
+        <div class="qr-code">
+            <img src="icephss25qr.png" alt="QR Code for Registration" width="200">
+        </div>
+
+        <!-- Registration Link -->
+        <p>Scan the QR code or click the link below to register for ICEPHSS’25:</p>
+        <a class="register-link" href="https://docs.google.com/forms/d/17wB7KYfXB2A5BDjcIq5BuXm4wDYobDy8FXdMbVobWwo/edit" target="_blank">
+            Register Here
+        </a>
+    </div>
               <span class="date">20-22 February 2025</span>
         <h1 style="font-family: 'Monoton', cursive; font-size: 90px; text-transform: uppercase; font-weight: 400; color: #fff; line-height: 1; margin-top: 50px; margin-bottom: 40px;">
                       ICEPHSS’25
